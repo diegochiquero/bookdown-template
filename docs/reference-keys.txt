@@ -1,0 +1,12 @@
+fig:rmarkdown
+intro
+label-chapter
+image
+hyperlink
+footnotes
+link-to-bibliography
+levels
+second-level-a
+third-level
+fourth-level
+second-level-b

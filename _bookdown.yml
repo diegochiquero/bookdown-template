@@ -1,0 +1,8 @@
+book_filename: "bookdown-template"
+output_dir: "docs"
+edit: https://github.com/diegochiquero/bookdown-template/edit/master/%s
+view: https://github.com/diegochiquero/bookdown-template/blob/master/%s
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true

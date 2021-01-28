@@ -1,0 +1,9 @@
+# Link to bibliography 
+
+This is an example of reference or bibliography source [@example-ref] that will take you to wikipedia bibliography definition, managed from *manual.bib* file.
+
+Another sample of reference o bibliography source [@article] managed from *article.bib* file.
+
+```
+You can add text to your text as follows.
+```

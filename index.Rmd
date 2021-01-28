@@ -1,0 +1,56 @@
+--- 
+title: "Bookdown template"
+author: "Diego Chiquero Mena"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+geometry:
+- top=1in
+- bottom=1in
+- right=1in
+- left=1in
+graphics: yes
+lang: en
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+classoption: openany
+papersize: a4
+bibliography: [book.bib, article.bib, manual.bib]
+biblio-style: apalike
+link-citations: yes
+linkcolor: blue
+ontsize: 11pt
+fontfamily: bookman
+github-repo: diegochiquero/bookdown-template
+description: "Bookdown template to read online and with PDF and ePub format output already setup."
+keywords: "Bookdown, pdf, epub, manual, book"
+cover-image: images/cover.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)  
+```
+
+# Prologue {-}
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+<hr style="height:1px;border-width:0;color:gray;background-color:gray">
+<p style="text-align: center;"><img src="images/cover.png" alt="The R Markdown book cover" /></p>
+``` 
+
+Bookdown template to write your book and read online, download PDF or ePub (ebook) format from top menu options of online version.
+
+PDF and ePub format output already setup. Ready to write your words, ideas, thoughts or whatever thing you want to tell us?.
+
+This book have been writing with [R-Markdown](http://rmarkdown.rstudio.com) and[`bookdown`](https://bookdown.org/) package and its guide you will find on [@R-bookdown].
+
+This link goes to other books made with [Bookdown](https://bookdown.org/home/archive/).
+
+IDE (integrated development environment) recommended [RStudio](https://rstudio.com/products/rstudio/download/), but choose yours.
+
+Image cover [@photopea]
+
+This work is under license [licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es). But choose your [License Creative Commons](https://creativecommons.org/).
+
+```{r echo=FALSE, fig.align='left'}
+knitr::include_graphics("images/by-nc-sa-88x31.png")
+```
