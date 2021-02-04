@@ -4,7 +4,7 @@ label-chapter
 image
 hyperlink
 footnotes
-link-to-bibliography
+Link-to-bibliography
 levels
 second-level-a
 third-level

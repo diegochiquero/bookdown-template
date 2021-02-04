@@ -1,6 +1,8 @@
 # Label chapter
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(levels).
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(levels). This solution works fine online and PDF format but doesn't work in ePub format.
+
+Other way to work with label chapter [Link to bibliography]. Work fine online and ePub format but PDF format get previous page.
 
 
 

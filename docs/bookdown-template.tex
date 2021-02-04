@@ -102,7 +102,7 @@
 
 \title{Bookdown template}
 \author{Diego Chiquero Mena}
-\date{28 enero 2021}
+\date{04 febrero 2021}
 
 \begin{document}
 \maketitle
@@ -169,7 +169,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 \hypertarget{label-chapter}{%
 \chapter{Label chapter}\label{label-chapter}}
 
-You can label chapter and section titles using \texttt{\{\#label\}} after them, e.g., we can reference Chapter \ref{intro}. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \ref{levels}.
+You can label chapter and section titles using \texttt{\{\#label\}} after them, e.g., we can reference Chapter \ref{intro}. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \ref{levels}. This solution works fine online and PDF format but doesn't work in ePub format.
+
+Other way to work with label chapter \protect\hyperlink{Link-to-bibliography}{Link to bibliography}. Work fine online and ePub format but PDF format get previous page.
 
 \hypertarget{image}{%
 \chapter{Image}\label{image}}
@@ -207,8 +209,8 @@ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
 
 Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 
-\hypertarget{link-to-bibliography}{%
-\chapter{Link to bibliography}\label{link-to-bibliography}}
+\hypertarget{Link-to-bibliography}{%
+\chapter{Link to bibliography}\label{Link-to-bibliography}}
 
 This is an example of reference or bibliography source \citep{example-ref} that will take you to wikipedia bibliography definition, managed from \emph{manual.bib} file.
 
@@ -243,7 +245,7 @@ Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit la
 \hypertarget{second-level-b}{%
 \section{Second level B}\label{second-level-b}}
 
-An so on\ldots{}
+And so on\ldots{}
 
   \bibliography{book.bib,article.bib,manual.bib}
 
